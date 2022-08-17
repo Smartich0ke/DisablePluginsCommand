@@ -18,5 +18,6 @@ public final class DisablePluginsCommand extends JavaPlugin {
     @Override
     public void onDisable() {
         getLogger().info("Goodbye!");
+
     }
 }
