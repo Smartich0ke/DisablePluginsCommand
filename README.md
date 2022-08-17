@@ -10,6 +10,7 @@ Just download the latest version of the plugin from the Spigot page and drop the
 ## Usage
 
 DisablePluginsCommand should work out of the box, with no additional configuration needed. However, there are some options you can change if you wish.
+![Demonstration of the plugin](img/demo.gif)
 
 ### Commands
  * **/disablepluginscommand reload** - reloads the `config.yml` file.
