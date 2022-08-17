@@ -1,0 +1,20 @@
+name: DisablePluginsCommand
+version: '${project.version}'
+main: com.nikolaipatrick.disablepluginscommand.DisablePluginsCommand
+api-version: 1.19
+prefix: disablePluginsCmd
+authors: [ Nikolaipatrick ]
+description: A plugin to disable the /plugins command
+website: nikolaipatrick.com
+commands:
+  disablepluginscmd:
+    description: root command for DisablePluginsCommand
+    usage: /disablepluginscmd <args>
+permissions:
+  disablePluginsCmd.bypass:
+    default: false
+    description: Allows you to use the /plugins command
+  disablePluginsCmd.admin:
+    default: false
+    description: Allows you to reload disablePluginsCommand
+

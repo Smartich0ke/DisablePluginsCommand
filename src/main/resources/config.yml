@@ -1,0 +1,13 @@
+# disablePluginsCommand ${project.version}
+# A plugin by Nikolai Patrick (Artichoke) - 2022
+
+#Disable the /plugins and /pl command for un-opped users or users with insufficient permissions:
+disable-plugins-cmd: true
+
+#Disable the /about command for un-opped users or users with insufficient permissions:
+disable-about-cmd: true
+
+#Disable the /version command for un-opped users or users with insufficient privileges:
+disable-version-cmd: true
+
+#NOTE, if a player is an op or has the permission node disablePluginsCmd.bypass , they will be able to run /plugin, /pl, /version, /ver or /about regardless.
