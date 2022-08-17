@@ -1,7 +1,7 @@
 # DisablePluginsCommand
 DisablePluginsCommand is a simple plugin for Minecraft servers based on Bukkit/Spigot/Paper, etc. It stops players from being able to run the `/plugins`, `/pl`, `/version`, `/ver`, and `/about` . If you don't want hackers and cheaters screwing around with your Minecraft server by exploiting vunerabilities in the plugins you use, then this is the plugin for you.
 
-It is also highly customizable. You can choose what commands you want to remain enabled, let admins and devs bypass the plugin by giving them a permission node, ad even change the deny message.
+It is also highly customizable. You can choose what commands you want to remain enabled, let admins and devs bypass the plugin by giving them a permission node, and even change the deny message.
 
 ## Installation: For server admins
 
