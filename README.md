@@ -58,7 +58,7 @@ I'm open to feature requests too.
 
 ## Contributing
 
-Pull requests are welcome. Maybe consider opening an issue first for any major changes
+Pull requests are welcome. Maybe consider opening an issue first for any major changes.
 
 ## Licence
 
