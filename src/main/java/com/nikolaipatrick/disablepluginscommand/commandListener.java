@@ -1,5 +1,6 @@
 package com.nikolaipatrick.disablepluginscommand;
 
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -14,7 +15,7 @@ public class commandListener implements Listener {
             if (DisablePluginsCommand.getPlugin(DisablePluginsCommand.class).getConfig().getBoolean("disable-plugins-cmd")) {
                 if (!p.hasPermission("disablePluginsCmd.bypass") && !p.isOp()) {
                     e.setCancelled(true);
-                    p.sendMessage(DisablePluginsCommand.getPlugin(DisablePluginsCommand.class).getConfig().getString("deny-message"));
+                    p.sendMessage(ChatColor.translateAlternateColorCodes('&', DisablePluginsCommand.getPlugin(DisablePluginsCommand.class).getConfig().getString("deny-message")));
                 }
             }
         }
@@ -22,7 +23,7 @@ public class commandListener implements Listener {
             if (DisablePluginsCommand.getPlugin(DisablePluginsCommand.class).getConfig().getBoolean("disable-version-cmd")) {
                 if (!p.hasPermission("disablePluginsCmd.bypass") && !p.isOp()) {
                     e.setCancelled(true);
-                    p.sendMessage(DisablePluginsCommand.getPlugin(DisablePluginsCommand.class).getConfig().getString("deny-message"));
+                    p.sendMessage(ChatColor.translateAlternateColorCodes('&', DisablePluginsCommand.getPlugin(DisablePluginsCommand.class).getConfig().getString("deny-message")));
                 }
             }
         }
@@ -30,7 +31,7 @@ public class commandListener implements Listener {
             if (DisablePluginsCommand.getPlugin(DisablePluginsCommand.class).getConfig().getBoolean("disable-about-cmd")) {
                 if (!p.hasPermission("disablePluginsCmd.bypass") && !p.isOp()) {
                     e.setCancelled(true);
-                    p.sendMessage(DisablePluginsCommand.getPlugin(DisablePluginsCommand.class).getConfig().getString("deny-message"));
+                    p.sendMessage(ChatColor.translateAlternateColorCodes('&', DisablePluginsCommand.getPlugin(DisablePluginsCommand.class).getConfig().getString("deny-message")));
                 }
             }
         }
