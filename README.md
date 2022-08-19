@@ -7,9 +7,22 @@ It is also highly customizable. You can choose what commands you want to remain 
 
 Just download the latest version of the plugin from the Spigot page and drop the .jar file into your plugins folder. It's that simple!
 
+## Build instructions: for developers
+
+clone the repo:
+
+`git clone https://github.com/Smartich0ke/DisablePluginsCommand.git`
+
+Build the .jar file with Maven:
+
+`mvn build`
+
+the newly build .jar file will be in the `target/` folder.
+
 ## Usage
 
 DisablePluginsCommand should work out of the box, with no additional configuration needed. However, there are some options you can change if you wish.
+
 ![Demonstration of the plugin](img/demo.gif)
 
 ### Commands
@@ -39,4 +52,15 @@ disable-version-cmd: true
 #NOTE, if a player is an op or has the permission node disablePluginsCmd.bypass , they will be able to run /plugin, /pl, /version, /ver or /about regardless.
 ```
 
+## Support
+if you need any help, feel free to open a github issue, message me through the SpigotMC direct messages, or message me on discord: `Artichoke#4180`.
+I'm open to feature requests too.
+
+## Contributing
+
+Pull requests are welcome. Maybe consider opening an issue first for any major changes.
+
+## Licence
+
+GNU general Public Licence v3
  
