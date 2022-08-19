@@ -6,7 +6,7 @@
 
     <groupId>com.nikolaipatrick</groupId>
     <artifactId>disablePluginsCommand</artifactId>
-    <version>1.0.0</version> <!--TODO: change version number to use v-->
+    <version>v1.0.1</version>
     <packaging>jar</packaging>
 
     <name>DisablePluginsCommand</name>
