@@ -26,7 +26,7 @@ public class commandDisablepluginscmd implements CommandExecutor {
                 }
                 if (args[0].equalsIgnoreCase("version")) {
                     if (sender.hasPermission("disablePluginsCmd.admin") || sender.isOp()) {
-                        sender.sendMessage("§aDisablePluginsCommand §ev1.0.0");
+                        sender.sendMessage("§aDisablePluginsCommand §ev1.1.1");
                         sender.sendMessage("§aA plugin by Nikolai Patrick (Artichoke)");
                         return true;
                     } else {
