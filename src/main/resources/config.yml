@@ -10,4 +10,7 @@ disable-about-cmd: true
 #Disable the /version command for un-opped users or users with insufficient privileges:
 disable-version-cmd: true
 
+#The message shown when a player is denyed access to a blocked comand:
+deny-message: '&cSorry, but you don`t have the necessary permission to run that command!'
+
 #NOTE, if a player is an op or has the permission node disablePluginsCmd.bypass , they will be able to run /plugin, /pl, /version, /ver or /about regardless.

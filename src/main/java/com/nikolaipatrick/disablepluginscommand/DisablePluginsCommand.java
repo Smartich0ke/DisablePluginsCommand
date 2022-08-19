@@ -7,7 +7,7 @@ public final class DisablePluginsCommand extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("Loading disablePluginsCommand V1.0.1");
+        getLogger().info("Loading disablePluginsCommand V1.1.1");
         getLogger().info("DisablePluginsCommand by Nikolai Patrick 2022");
         getServer().getPluginManager().registerEvents(new commandListener(), this);
         getCommand("disablepluginscmd").setExecutor(new commandDisablepluginscmd());

@@ -14,7 +14,7 @@ public class commandListener implements Listener {
             if (DisablePluginsCommand.getPlugin(DisablePluginsCommand.class).getConfig().getBoolean("disable-plugins-cmd")) {
                 if (!p.hasPermission("disablePluginsCmd.bypass") && !p.isOp()) {
                     e.setCancelled(true);
-                    p.sendMessage("§cSorry, but you don't have the necessary permission to run that command!");//TODO: replace permission string with user-customizable one
+                    p.sendMessage(DisablePluginsCommand.getPlugin(DisablePluginsCommand.class).getConfig().getString("deny-message"));
                 }
             }
         }
@@ -22,7 +22,7 @@ public class commandListener implements Listener {
             if (DisablePluginsCommand.getPlugin(DisablePluginsCommand.class).getConfig().getBoolean("disable-version-cmd")) {
                 if (!p.hasPermission("disablePluginsCmd.bypass") && !p.isOp()) {
                     e.setCancelled(true);
-                    p.sendMessage("§cSorry, but you don't have the necessary permission to run that command!");
+                    p.sendMessage(DisablePluginsCommand.getPlugin(DisablePluginsCommand.class).getConfig().getString("deny-message"));
                 }
             }
         }
@@ -30,7 +30,7 @@ public class commandListener implements Listener {
             if (DisablePluginsCommand.getPlugin(DisablePluginsCommand.class).getConfig().getBoolean("disable-about-cmd")) {
                 if (!p.hasPermission("disablePluginsCmd.bypass") && !p.isOp()) {
                     e.setCancelled(true);
-                    p.sendMessage("§cSorry, but you don't have the necessary permission to run that command!");
+                    p.sendMessage(DisablePluginsCommand.getPlugin(DisablePluginsCommand.class).getConfig().getString("deny-message"));
                 }
             }
         }
