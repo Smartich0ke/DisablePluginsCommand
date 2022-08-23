@@ -26,4 +26,4 @@ jobs:
       - uses: actions/checkout@v3
       - run: mvn install
       - run: mvn test
-      - run: mvn build
+      - run: mvn package
